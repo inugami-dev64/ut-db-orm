@@ -50,8 +50,10 @@ flask run
 <h2>Assignment 1</h2>
 Your first task is to implement SQL queries `get_post` and `update` inside application/blog.py.
 Tip: Look at `index` and `create` functions respectively.
-* Implement beforementioned SQL scripts
-* Try to edit a post again, now it should be working, if not, you did something wrong!
+<ul>
+ <li><Implement beforementioned SQL scripts</li>
+ <li>Try to edit a post again, now it should be working, if not, you did something wrong!</li>
+</ul>
 
 
 <h2>Assignment 2</h2>
