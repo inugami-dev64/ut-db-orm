@@ -10,36 +10,36 @@ This is not to say it is good or bad, although nowadays using <u>microservice ar
 
 It is also recommended googling the underlined words ;).
 
-##Setup
+<h2>Setup</h2>
 To run the application you must first setup environment variables like so:
-####Mac
+<h4>Mac</h4>
 ```bash
 $ export FLASK_APP=application
 $ export FLASK_ENV=development
 ```
 
-####Linux
+<h4>Linux</h4>
 ```bash
 > set FLASK_APP=application
 > set FLASK_ENV=development
 ```
 
-####Windowss
+<h4>Windows</h4>
 ```bash
 > $env:FLASK_APP = "application"
 > $env:FLASK_ENV = "development"
 ```
 
-###Init DB
+<h3>Init DB</h3>
 ```bash
 flask init-db
 ```
-###Run
+<h3>Run</h3>
 ```bash
 flask run
 ```
 
-##Assignment 0
+<h2>Assignment 0</h2>
 * Read the before manual, start the application 
 (default port is 5000, if you waht to change that, use `flask run --host=0.0.0.0 --port=80`)
 * Register an account
@@ -47,7 +47,7 @@ flask run
 * Create a post
 * Try to edit a post (THIS SHOULDN'T WORK)
 
-##Assignment 1
+<h2>Assignment 1</h2>
 Your first task is to implement SQL queries `get_post` and `update` inside application/blog.py.
 Tip: Look at `index` and `create` functions respectively.
 * Implement beforementioned SQL scripts
@@ -73,15 +73,15 @@ We will also implement ORM in our project, for this we use SQLAlchemy, the most 
 
 
 
-##Assignment 2
+<h2>Assignment 2</h2>
 
 
-##Deliverables
+<h2>Deliverables</h2>
 The end result should pass all tests that are written for you. There is no point in fooling said tests as they are only there for your benefit!
 ######For instructions on running tests, look below
 If all is well, please send your code to your supervisor in Discord in ZIP format.
 
-##Running tests
+<h2>Running tests</h2>
 If all assignments are done correctly then all tests should pass.
 (You can also run the tests inside PyCharm, it makes no difference.)
 ```bash
