@@ -81,7 +81,7 @@ We will also implement ORM in our project, for this we use SQLAlchemy, the most 
 
 <h2>Deliverables</h2>
 The end result should pass all tests that are written for you. There is no point in fooling said tests as they are only there for your benefit!
-######For instructions on running tests, look below
+<h6>For instructions on running tests, look below</h6>
 If all is well, please send your code to your supervisor in Discord in ZIP format.
 
 <h2>Running tests</h2>
