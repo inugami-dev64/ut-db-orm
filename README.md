@@ -40,12 +40,14 @@ flask run
 ```
 
 <h2>Assignment 0</h2>
-* Read the before manual, start the application 
-(default port is 5000, if you waht to change that, use `flask run --host=0.0.0.0 --port=80`)
-* Register an account
-* Log in
-* Create a post
-* Try to edit a post (THIS SHOULDN'T WORK)
+<ul>
+ <li>Read the before manual, start the application 
+ (default port is 5000, if you waht to change that, use `flask run --host=0.0.0.0 --port=80`)</li>
+ <li>Register an account</li>
+ <li>Log in</li>
+ <li>Create a post</li>
+ <li>Try to edit a post (THIS SHOULDN'T WORK)</li>
+</ul>
 
 <h2>Assignment 1</h2>
 Your first task is to implement SQL queries `get_post` and `update` inside application/blog.py.
