@@ -53,7 +53,9 @@ Tip: Look at `index` and `create` functions respectively.
 * Implement beforementioned SQL scripts
 * Try to edit a post again, now it should be working, if not, you did something wrong!
 
-<br>
+
+<h2>Assignment 2</h2>
+
 <hr>
 <div style="background-color: rgba(82,63,63,0.78); padding: 0.1rem 1rem; border-radius: 20px">
 
@@ -72,10 +74,6 @@ As with all things IT, there is no clear benefit but the decision should be made
 We will also implement ORM in our project, for this we use SQLAlchemy, the most popular ORM for python.
 </div>
 <hr>
-
-
-<h2>Assignment 2</h2>
-
 
 <h2>Deliverables</h2>
 The end result should pass all tests that are written for you. There is no point in fooling said tests as they are only there for your benefit!
