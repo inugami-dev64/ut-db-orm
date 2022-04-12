@@ -54,6 +54,7 @@ Tip: Look at `index` and `create` functions respectively.
 * Try to edit a post again, now it should be working, if not, you did something wrong!
 
 <br>
+<hr>
 <div style="background-color: rgba(82,63,63,0.78); padding: 0.1rem 1rem; border-radius: 20px">
 
 Now to the main part of this exercise... ORM ([Object–relational mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)).
@@ -70,7 +71,7 @@ As with all things IT, there is no clear benefit but the decision should be made
 
 We will also implement ORM in our project, for this we use SQLAlchemy, the most popular ORM for python.
 </div>
-
+<hr>
 
 
 <h2>Assignment 2</h2>
