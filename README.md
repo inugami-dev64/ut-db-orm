@@ -11,6 +11,10 @@ This is not to say it is good or bad, although nowadays using <u>microservice ar
 It is also recommended googling the underlined words ;).
 
 <h2>Setup</h2>
+
+FORK the repository to your local machine (if you haven't already). I do recommend the web version, but it is up to you.
+<a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">HINT</a>
+
 To run the application you must first setup environment variables like so:
 <h4>Mac</h4>
 ```bash
@@ -83,7 +87,7 @@ We will also implement ORM in our project, for this we use SQLAlchemy, the most 
 <h2>Deliverables</h2>
 The end result should pass all tests that are written for you. There is no point in fooling said tests as they are only there for your benefit!
 <h6>For instructions on running tests, look below</h6>
-If all is well, please send your code to your supervisor in Discord in ZIP format.
+If all is well, share the repository with your lab supervisor for POINTS.
 
 <h2>Running tests</h2>
 If all assignments are done correctly then all tests should pass.
