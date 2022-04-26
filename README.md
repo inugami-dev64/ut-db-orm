@@ -77,6 +77,7 @@ As with all things IT, there is no clear benefit but the decision should be made
 
 We will also implement ORM in our project, for this we use SQLAlchemy, the most popular ORM for python.
 </div>
+<h3>NB! To start Assignmet 2 checkout to branch "assignment2"!</h3>
 <hr>
 
 <h2>Deliverables</h2>
