@@ -5,7 +5,7 @@
 
 
 
-<h2>Assignment 2 (In detail)</h2>
+<h2>Assignment 2 (The real deal)</h2>
 
 <hr>
 <div style="background-color: rgba(82,63,63,0.78); padding: 0.1rem 1rem; border-radius: 20px">
@@ -23,18 +23,29 @@ The latter and sometimes the first can be averted by adding custom SQL to proble
 As with all things IT, there is no clear benefit but the decision should be made considering the complexity and the required time of a certain system.
 
 We will also implement ORM in our project, for this we use SQLAlchemy, the most popular ORM for python.
+
+As you see, SQLAlchemy is no magic and it works perfectly together with pure SQL from our previous example (<code>auth.py</code>).
+Basically it is a neat way to write SQL :D.
 </div>
-<h3>NB! To start Assignmet 2 checkout to branch "assignment2"!</h3>
+
+<h3>Tasks</h3>
+<ol>
+    <li>Implement <code>get_post</code> function's SQL</li>
+    <li>Implement <code>update</code> function's SQL</li>
+    <li>Implement <code>search</code> function's SQL, you can test this by querying in the GUI ;)</li>
+</ol>
 <hr>
+
+<div style="background-color: rgba(82,63,63,0.78); padding: 0.1rem 1rem; border-radius: 20px">
+
+A little more info before you go, hope you liked the tasks given and decide to create your own application someday or why not <strong>today</strong>.
+
+Keep in mind the example we used here today is not to show the best layout for a web project rather than show you the cool opportunities that databases offer.
+
+E.g. a real application would use <u>migrations</u> and keep models in different files for better structure and readability. If you have questions, then Google it ;). 
+</div>
 
 <h2>Deliverables</h2>
 The end result should pass all tests that are written for you. There is no point in fooling said tests as they are only there for your benefit!
 <h6>For instructions on running tests, look below</h6>
 If all is well, share the repository with your lab supervisor for POINTS.
-
-<h2>Running tests</h2>
-If all assignments are done correctly then all tests should pass.
-(You can also run the tests inside PyCharm, it makes no difference.)
-```bash
- python -m pytest tests
-```
