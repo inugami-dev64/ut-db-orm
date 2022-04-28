@@ -15,6 +15,11 @@ It is also recommended googling the underlined words ;).
 FORK the repository to your local machine (if you haven't already). I do recommend the web version, but it is up to you.
 <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">HINT</a>
 
+<h4>Install all necessary packages</h4>
+```bash
+$ pip install -r requirements.txt
+```
+
 To run the application you must first setup environment variables like so:
 <h4>Mac</h4>
 ```bash
