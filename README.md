@@ -1,5 +1,7 @@
 <h1>Developer and Databeses 101</h1>
 
+NB! If you have questions you can write to Karel Paan <code>(karelpaan#2890)</code> in Discord chat ;)
+
 **Greetings, wanderer!** You have found yourself on a quest to get to know more about the life of a database and how it is used in "real life".
 Keep in mind that this is only one of many uses for a database. Development being the most common usa we will be talking about just that. And ofcourse you will have plenty of opporunities to make your hands dirty. 
 
