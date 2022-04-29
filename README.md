@@ -50,4 +50,4 @@ E.g. a real application would use <u>migrations</u> and keep models in different
 
 <h2>Deliverables</h2>
 The end result should pass all tests that are written for you. There is no point in fooling said tests as they are only there for your benefit!
-If all is well, share the repository with Karel Paan <code>(karelpaan#2890)</code> in Discord.
+If all is well, share the repository (GitHub) link with Karel Paan <code>(karelpaan#2890)</code> in Discord.
