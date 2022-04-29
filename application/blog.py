@@ -8,7 +8,7 @@ from application.auth import login_required
 bp = Blueprint('blog', __name__)
 
 
-@bp.route('/')
+@bp.route('/', methods=('GET', 'POST'))
 def index():
     from application import Post, User, db
 
@@ -27,10 +27,12 @@ def index():
 def search(query):
     from application import Post, User, db
     #TODO implement filtering (the hint is in the name ;) )
+    #PS: filter by title ;)
     posts = list(map(
         lambda o: Post.withUser(o[1], o[0]),
         db.session.query(User, Post).filter(User.id == Post.author_id).all())
     )
+    #Hint: you need to filter after the first filter ;)
 
     return posts
 

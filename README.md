@@ -2,8 +2,7 @@
 
 **Greetings, wanderer!** We meet again... this time, as promised we will take a look inside world of ORMs and try it out ourselves.
 
-
-
+NB! If you have questions you can write to Karel Paan <code>(karelpaan#2890)</code> in Discord chat ;)
 
 <h2>Assignment 2 (The real deal)</h2>
 
@@ -26,9 +25,13 @@ We will also implement ORM in our project, for this we use SQLAlchemy, the most 
 
 As you see, SQLAlchemy is no magic and it works perfectly together with pure SQL from our previous example (<code>auth.py</code>).
 Basically it is a neat way to write SQL :D.
+
+To understand what is going on, check <code>application/__init__.py</code>
 </div>
 
 <h3>Tasks</h3>
+(Everything should be done inside <code>blog.py</code> file)
+Tasks require you to search individually, you can find help in Google or in <a href="https://docs.sqlalchemy.org/en/14/">HERE</a>.
 <ol>
     <li>Implement <code>get_post</code> function's SQL</li>
     <li>Implement <code>update</code> function's SQL</li>
@@ -47,5 +50,4 @@ E.g. a real application would use <u>migrations</u> and keep models in different
 
 <h2>Deliverables</h2>
 The end result should pass all tests that are written for you. There is no point in fooling said tests as they are only there for your benefit!
-<h6>For instructions on running tests, look below</h6>
-If all is well, share the repository with your lab supervisor for POINTS.
+If all is well, share the repository with Karel Paan <code>(karelpaan#2890)</code> in Discord.
