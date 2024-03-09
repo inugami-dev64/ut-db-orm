@@ -1,3 +1,5 @@
+PS! Use Python version `3.8`!!!
+
 <h1>Developer and Databeses 101</h1>
 
 NB! If you have questions you can write to Karel Paan <code>(karelpaan#2890)</code> in Discord chat ;)
