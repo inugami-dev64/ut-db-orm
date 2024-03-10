@@ -3,29 +3,26 @@ from flask import (
 )
 from werkzeug.exceptions import abort
 
+from .database import db
 from application.auth import login_required
+from application.models.Post import Post
+from application.models.User import User
+from application.models.Comment import Comment
 
 bp = Blueprint('blog', __name__)
 
 
 @bp.route('/', methods=('GET', 'POST'))
 def index():
-    from application import Post, User, db
-
+    query = None
     if request.method == 'POST':
         query = request.form['query']
-        posts = search(query)
 
-    else:
-        posts = list(map(
-            lambda o: Post.withUser(o[1], o[0]),
-            db.session.query(User, Post).filter(User.id == Post.author_id).all())
-        )
+    posts = search(query)
 
     return render_template('blog/index.html', posts=posts)
 
 def search(query):
-    from application import Post, User, db
     #TODO implement filtering (the hint is in the name ;) )
     #PS: filter by title ;)
     posts = list(map(
@@ -50,7 +47,6 @@ def create():
         if error is not None:
             flash(error)
         else:
-            from application import Post, db
             c1 = Post(title=title, body=body, author_id=g.user['id'])
 
             db.session.add(c1)
@@ -62,8 +58,6 @@ def create():
 
 
 def get_post(id, check_author=True):
-    from application import Post
-
     post = None #TODO implement me (you probably need to google [get SQLAlchemy object by id])
 
     if post is None:
@@ -91,7 +85,6 @@ def update(id):
         if error is not None:
             flash(error)
         else:
-            from application import Post, db
             #TODO implement
             #remember, we already have teh post object ;)
 
@@ -105,7 +98,6 @@ def update(id):
 @bp.route('/<int:id>/delete', methods=('POST',))
 @login_required
 def delete(id):
-    from application import Post, db
     post = Post.query.get(id)
     db.session.delete(post)
     db.session.commit()

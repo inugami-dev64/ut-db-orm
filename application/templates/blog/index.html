@@ -30,6 +30,13 @@
         {% endif %}
       </header>
       <p class="body">{{ post['body'] }}</p>
+      <div class="comments">
+          {% for comment in post.comments %}
+            <p>
+                {{ comment }}
+            </p>
+          {% endfor %}
+      </div>
     </article>
     {% if not loop.last %}
       <hr>
